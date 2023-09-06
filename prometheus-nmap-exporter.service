@@ -1,0 +1,14 @@
+[Unit]
+Description=Prometheus nmap exporter
+After=network.target
+
+[Service]
+ExecStart=/opt/prometheus-nmap-exporter/prometheus-nmap-exporter
+User=root
+Group=root
+Restart=always
+RestartSec=5s
+
+[Install]
+WantedBy=multi-user.target
+
