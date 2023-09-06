@@ -1,3 +1,3 @@
-# prometheus-nmap-exporter
+# prometheus-network-exporter
 
-Show nmap result for grafana-agent in my house
+Show network info for grafana-agent in my house

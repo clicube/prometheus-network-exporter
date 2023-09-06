@@ -1,9 +1,9 @@
 [Unit]
-Description=Prometheus nmap exporter
+Description=Prometheus network exporter
 After=network.target
 
 [Service]
-ExecStart=/opt/prometheus-nmap-exporter/prometheus-nmap-exporter
+ExecStart=/opt/prometheus-network-exporter/prometheus-network-exporter
 User=root
 Group=root
 Restart=always

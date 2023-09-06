@@ -1,4 +1,4 @@
-module github.com/clicube/prometheus-nmap-exporter
+module github.com/clicube/prometheus-network-exporter
 
 go 1.19
 
